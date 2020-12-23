@@ -223,6 +223,9 @@ padding-top: 200px;
   margin-right: auto;
   margin-bottom: 110px;
 }
+.tabpad {
+    padding: 50px;
+  }
 .painting {
   height: 150px;
 
