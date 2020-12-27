@@ -1,6 +1,7 @@
 body {
   margin: 0;
   text-align: center;
+  position: relative;
 }
 
 div {
@@ -9,7 +10,7 @@ div {
 }
 .upper-p {
   position: absolute;
-  top: 200px;
+  top: 30%;
   right: 43%;
   margin: 0 auto;
   font-family: 'Indie Flower', cursive;
@@ -20,12 +21,22 @@ div {
 }
 .upper-container {
   background-color: #41aea9;
-  padding-top: 20%;
-  padding-bottom: 10%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
-  height: 300px;
+
+  height: 100%;
+  width: 100%;
 }
 
+#impakiza {
+  top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
 h1 {
   position: absolute;
   top: 100px;
@@ -59,7 +70,7 @@ h3 {
 .bottom-cloud {
   position: absolute;
   left: 25%;
-  top: 200px;
+  top: 30%;
   margin: 0 0 0 0;
   display: inline-block;
   padding-top: 5%;
@@ -67,7 +78,7 @@ h3 {
 
 .top-cloud {
   position: absolute;
-  top: 50px;
+  top: 10%;
   right: 30%;
   display: inline-block;
   padding-top: 5%;
@@ -80,6 +91,8 @@ h3 {
   right: 28%;
   display: inline-block;
   height: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -87,6 +100,10 @@ h3 {
   position: relative;
   background-color: #e8ffff;
   margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 .bottom-container {
   margin-top: 0;
@@ -107,8 +124,8 @@ h3 {
 }
 #divex {
   border-radius: 100%;
-  height:210px;
-  width: 210px;
+  height:12.5rem;
+  width: 12.5rem;
   background-color: #a6f6f1;
   position: relative;
   padding: 30px;
@@ -186,22 +203,25 @@ td {
 
 .table-left {
   width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .table-right {
   width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .right-text {
   text-align: left;
-  padding-left: 100px;
+
 }
 .right-icon {
-  text-align: center;
+  text-align: left;
   vertical-align: top;
   padding-top: 200px;
+}
+.rigmar {
+  margin-left: 0;
 }
 .left-text {
   text-align: left;
@@ -217,26 +237,49 @@ padding-top: 200px;
   margin-bottom: 0;
 }
 .hobbies {
-  width: 65%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 110px;
-}
-.tabpad {
-    padding: 50px;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  height: 100%;
+  width: 100%;
+
+  }
+
+ .hob1 {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    display: inline-block;
+    }
+  .hob2{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    display: inline-block;
+    }
+  .hob3 {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    display: inline-block;
   }
 .painting {
-  height: 150px;
+  height:70%;
+  position: sticky;
 
 }
 .photography {
-  height: 150px;
+  height:70%;
+  position: sticky;
 
 }
 .sleeping {
-  height: 150px;
-  
+  height:70%;
+  position: sticky;
+
 }
 .getintouch {
   padding-top: 3%;
@@ -371,4 +414,5 @@ textarea {
 #h2mar {
   margin-left: auto;
   margin-right: auto;
-}
+  padding-top: 0;
+  }
