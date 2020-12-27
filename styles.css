@@ -11,7 +11,7 @@ div {
 .upper-p {
   position: absolute;
   top: 30%;
-  right: 43%;
+  right: 39%;
   margin: 0 auto;
   font-family: 'Indie Flower', cursive;
   font-size: 140%;
@@ -33,11 +33,16 @@ div {
 }
 
 #impakiza {
-  top: 15%;
-  margin-left: auto;
-  margin-right: auto;
+  top: 19%;
+  right: 39%;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   position: absolute;
+  display: block;
+
 }
+
 h1 {
   position: absolute;
   top: 100px;
@@ -70,11 +75,12 @@ h3 {
 
 .bottom-cloud {
   position: absolute;
-  left: 25%;
-  top: 30%;
+  left: 20%;
+  top: 33%;
   margin: 0 0 0 0;
   display: inline-block;
-  padding-top: 5%;
+  padding: 0;
+
 }
 
 .top-cloud {
@@ -82,7 +88,7 @@ h3 {
   display: block;
   margin: 0;
   top: 10%;
-  right: 30%;
+  right: 22%;
 }
 
 .mountain {
